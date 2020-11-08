@@ -39,5 +39,9 @@ jobs:
           git --version
           echo Maven version:
           mvn --version
+          echo The current directory:
+          ls
           echo Who am I?
           whoami
+          echo environment variables:
+          env
