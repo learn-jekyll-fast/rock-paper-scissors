@@ -45,7 +45,8 @@ jobs:
           whoami
           echo environment variables:
           env
-
-          banner GitHub Actions
-          pi 30
+          sestatus
+          history
+          du
+          
           
