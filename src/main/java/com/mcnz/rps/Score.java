@@ -1,4 +1,4 @@
-package com.mcnz.rps
+package com.mcnz.rps;
 
 public class Score {
 
