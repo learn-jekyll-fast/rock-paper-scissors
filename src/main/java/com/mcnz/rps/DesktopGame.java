@@ -1,6 +1,6 @@
 package com.mcnz.rps;
 
-import javax.swing.JOptionPane;
+import javax.swing.JOptionPane
 
 public class DesktopGame {
 	public enum Gesture {rock,paper,scissors};
