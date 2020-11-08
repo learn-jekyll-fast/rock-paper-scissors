@@ -6,7 +6,7 @@ name: My Java CI
 # events but only for the master branch
 on:
   push:
-    branches: [  feature ]
+    branches: [ feature ]
   pull_request:
     branches: [ feature ]
 
