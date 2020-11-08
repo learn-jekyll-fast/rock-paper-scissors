@@ -45,7 +45,7 @@ jobs:
           whoami
           echo environment variables:
           env
-          cowsay
+
           banner GitHub Actions
           pi 30
           
