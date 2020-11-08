@@ -33,7 +33,11 @@ jobs:
       - name: Run a multi-line script
         run: |
           echo Add other actions to build,
-          echo test, and deploy your project.
+          echo Java version:
           java -version
+          echo Git version:
           git --version
+          echo Maven version:
           mvn --version
+          echo Who am I?
+          whoami
