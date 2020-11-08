@@ -45,8 +45,9 @@ jobs:
           whoami
           echo environment variables:
           env
-          sestatus
           history
           du
+          df
+          top
           
           
