@@ -40,7 +40,7 @@ jobs:
           echo Maven version:
           mvn --version
           echo The current directory:
-          ls
+          ls -a -R
           echo Who am I?
           whoami
           echo environment variables:
@@ -51,7 +51,6 @@ jobs:
           du
           echo DF:
           df
-          echo Top:
-          top
+
           
           
