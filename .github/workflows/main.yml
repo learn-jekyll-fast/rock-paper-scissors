@@ -46,7 +46,7 @@ jobs:
           echo Maven version:
           mvn --version
           echo Ant version:
-          ant --version
+          ant -version
           echo Gradle version:
           gradle --version 
           
