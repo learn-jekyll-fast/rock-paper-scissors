@@ -50,14 +50,9 @@ jobs:
           echo Gradle version:
           gradle --version 
           
-          echo Workspace Location
+          echo Workspace Runner Location
           echo $RUNNER_WORKSPACE
-          
-          ANT_HOME
-          
-          HOMEBREW_CELLAR
-          
-          ANT_HOME
+
           echo The current directory:
           ls -a
           echo Who am I?
