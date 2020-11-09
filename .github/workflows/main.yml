@@ -35,10 +35,29 @@ jobs:
           echo Add other actions to build,
           echo Java version:
           java -version
+          echo JAVA_HOME
+          echo $JAVA_HOME
+          echo ANDROID_SDK_ROOT
+          echo $ANDROID_SDK_ROOT
+          echo SELENIUM_JAR_PATH
+          echo $SELENIUM_JAR_PATH
           echo Git version:
           git --version
           echo Maven version:
           mvn --version
+          echo Ant version:
+          ant --version
+          echo Gradle version:
+          gradle --version 
+          
+          echo Workspace Location
+          echo $RUNNER_WORKSPACE
+          
+          ANT_HOME
+          
+          HOMEBREW_CELLAR
+          
+          ANT_HOME
           echo The current directory:
           ls -a
           echo Who am I?
